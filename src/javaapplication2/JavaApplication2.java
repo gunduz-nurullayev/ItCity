@@ -60,6 +60,9 @@ public class JavaApplication2 {
             case "sin":
                 result=Math.sin(a)+Math.cos(b);
                 break;
+            default:
+                System.out.println("Emeliyyat duzgun secilmemisdir!");
+                
         
         }    
         System.out.println(result);
