@@ -57,6 +57,9 @@ public class JavaApplication2 {
                 }
                 result=x;
                 break;
+            case "sin":
+                result=Math.sin(a)+Math.cos(b);
+                break;
         
         }    
         System.out.println(result);
