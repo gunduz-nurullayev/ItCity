@@ -1,21 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package javaapplication2;
-
+package ItCity;
 import java.util.Scanner;
-
-/**
- *
- * @author hp
- */
-public class JavaApplication2 {
-
-    /**
-     * @param args the command line arguments
-     */
+        
+public class Calculator {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Birinci ededi daxil edin: ");
@@ -62,8 +48,6 @@ public class JavaApplication2 {
                 break;
             default:
                 System.out.println("Emeliyyat duzgun secilmemisdir!");
-                
-        
         }    
         System.out.println(result);
         main(args);
